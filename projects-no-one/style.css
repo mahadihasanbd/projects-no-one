@@ -53,6 +53,71 @@
     height: 800px;
     padding: 50px 240px 0px 0px;
 }
+#bonus-one {
+    display: flex;
+ }
+  
+.pic-one,
+.pic-two,
+.pic-three {
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+ }
+  
+.pic-one img,
+.pic-two img,
+.pic-three img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 40%;
+    margin-bottom: 50px;
+}
+  
+.pic-one p,
+.pic-two p,
+.pic-three p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    margin-right: 500px;
+    text-decoration: underline;
+}
+
+#bonus-part {
+    display: block;
+    width: 1440px;
+    height: 320px;
+    margin: 50px 240px 50px 240px;
+    background-color: rgba(39, 39, 39, 0.05);;
+}
+.bonus-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 230px 250px 250px ;
+    
+}
+.bonus-two p {
+   padding: 20px;
+}
+
+section {
+    width: 1920px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
 
 #main-container {
     display: flex;
@@ -194,11 +259,11 @@
 }
   
 .inp-box {
-    padding: 10px;
-    margin-right: 10px;
+    padding-bottom: 20px ;
+    margin:10px 10px 50px 50px ;
     border: 1px solid #ccc;
-    width: 500px;
-    height: 50px;
+    width: 400px;
+    height: 40px;
 }
   
 .btn-three {
@@ -209,102 +274,43 @@
     font-weight: 700;
     width: 100px;
     height: 45px;
+    margin-bottom: 45px;
 }
   
 .btn-three:hover {
     background-color: rgb(2, 57, 54);
  }
  footer {
-    display: block;
+    display: flex;
     background-color: #494747;
     color: #fff;
     padding: 20px;
     text-align: center;
     width: 1922px;
-    height: 449px; 
+    height: 650px; 
     margin-top: 100px;
+    padding-left: 600px;
+
   }
   
   .shop-footer {
-    max-width: 800px;
-    margin: 120px 800px 230px 330px;
     
-    
+    margin: 0px ;
+     
   }
   
   .f-head {
     font-size: 24px;
     font-weight: 400;
     color: #E55473;
-    padding-bottom: 15px;
+    padding: 50px  400px 50px 400px;
   }
   
   .shop-footer p {
-    margin: 10px 0;
+    margin: 10px 0px;
+    padding:25px 350px 100px 100px ;
     color: #ffffff;
   }
 
-#bonus-part {
-    display: block;
-    width: 1440px;
-    height: 320px;
-    margin: 50px 240px 50px 240px;
-    background-color: rgba(39, 39, 39, 0.05);;
-}
-.bonus-two {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 80px 230px 145px 200px ;
-}
-.bonus-two p {
-   padding: 20px;
-}
 
-section {
-    width: 1920px;
-    height: 480px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-  
-#bonus-one {
-    display: flex;
- }
-  
-.pic-one,
-.pic-two,
-.pic-three {
-    width: 310px;
-    height: 428px;
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-right: 20px;
- }
-  
-.pic-one img,
-.pic-two img,
-.pic-three img {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 40%;
-    margin-bottom: 50px;
-}
-  
-.pic-one p,
-.pic-two p,
-.pic-three p {
-    text-align: center;
-    font-size: 18px;
-    font-weight: 700;
-    color: #333;
-    margin-right: 500px;
-    text-decoration: underline;
-}
   
